@@ -40,6 +40,8 @@ if ($_POST["person"]){
 
     if(empty($question)){
         $msg = "لطفا سوال خود را بپرس!";
+        $en_name = array_rand($names,1);
+        $fa_name = $names[$en_name];
         $flag = 0;
     }
     else{
