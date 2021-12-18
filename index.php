@@ -4,6 +4,7 @@
 // $en_name = 'hafez';
 // $fa_name = 'حافظ';
 $flag = 1;
+error_reporting(0);
 
 function N_len($x)
 {
